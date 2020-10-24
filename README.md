@@ -8,4 +8,4 @@ quick and dirty html, css, and vanilla js project, using bootstrap
 
 `http-server`
 
-[see requirements](https://cs50.harvard.edu/x/2020/tracks/web/homepage/)
+[see cs50 project requirements](https://cs50.harvard.edu/x/2020/tracks/web/homepage/)
