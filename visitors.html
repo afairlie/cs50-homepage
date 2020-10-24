@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=0.75">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>About Ariane</title>
+    </head>
+    <body>
+        <ul><!--javascript loads nav--></ul>
+        <section>
+            <h1>VISITOR BOOK</h1>
+            <h3>leave a note on the wall:)</h3>
+            <form id='form' class='form-group'>
+                <input name='message' class='form-control-inline' placeholder='write a message'/>
+                <input name='name' class='form-control-inline' placeholder='sign your name'/>
+                <button class='btn btn-sm btn-outline-secondary' type='submit'>post</button>
+            </form>
+        </section>
+        <section>
+            <h2>YOUR NOTES</h2>
+            <ul id="notes">
+            </ul>
+        </section>
+    </body>
+    <script src='index.js'></script>
+</html>

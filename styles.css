@@ -1,0 +1,94 @@
+body {
+    background-color: whitesmoke;
+    color: olive;
+    padding: 1rem;
+}
+
+h1, h2, h3 {
+    color: olive;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+}
+
+section {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.homepage-content > h1 {
+    margin-bottom: 5rem;
+    font-size: 3em;
+}
+
+.nav a {
+    text-transform: uppercase;
+    color: slategray;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: hotpink;
+}
+
+address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed olive;
+    padding: 5rem;
+    margin-top: 2rem;
+}
+
+#contact {
+    color: slategray;
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    margin: 0.5rem;
+}
+
+p {
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    max-width: 450px;
+    text-indent: 2rem;
+}
+
+p:first-of-type {
+    margin-top: 1rem;
+}
+
+#cat {
+    font-size: 5rem;
+    width: 100%;
+    text-align: right;
+}
+
+form {
+    margin-top: 2rem;
+}
+
+.note {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: 1px solid olive;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+}
+
+ul {
+    padding: 0;
+}
+
+
+.author {
+    width: 100%;
+    text-align: right;
+}
